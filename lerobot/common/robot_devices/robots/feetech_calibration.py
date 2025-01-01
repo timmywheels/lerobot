@@ -5,6 +5,8 @@ import time
 
 import numpy as np
 
+print("Calibrating...")
+
 from lerobot.common.robot_devices.motors.feetech import (
     CalibrationMode,
     TorqueMode,
